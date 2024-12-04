@@ -46,7 +46,7 @@ for /d %%S in ("%main_folder%\*") do (
 
         :: Move and rename the file to the main folder
         move /y "%%F" "%main_folder%\!new_filename!"
-        echo Moved: %%F -> %main_folder%\!new_filename!
+        echo "Moved: %%F -> %main_folder%\!new_filename!"
       )
     )
 
